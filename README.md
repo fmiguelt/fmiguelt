@@ -2,7 +2,7 @@
 
 I'm a software engineer, currently working at Farfetch as Frontend. I've worked with NodeJS, Javascript/Typescript, React, C++, Docker
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/your-profile-url/)]([https://www.linkedin.com/in/your-profile-url/](https://www.linkedin.com/in/fmiguelt/))
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/your-profile-url/)]([[https://www.linkedin.com/in/your-profile-url/](https://www.linkedin.com/in/fmiguelt/)]())
 
 <!--
 ### Skills
