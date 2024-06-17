@@ -1,6 +1,6 @@
 ### Hey! 👋 I'm Francisco 
 
-I'm a software engineer, currently working at Farfetch as Frontend. I've worked with NodeJS, Javascript/Typescript, React, C++, Docker
+I'm a software engineer, currently working at 8x8 as Frontend. I've worked with NodeJS, Javascript/Typescript, React, C++, Docker
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fmiguelt/)
 
