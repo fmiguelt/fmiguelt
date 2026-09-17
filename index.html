@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Francisco Tavares</title>
+<meta name="description" content="Index of pages published at fmiguelt.github.io">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>&#x1F3C3;</text></svg>">
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #fbfbfa;
+  --surface: #ffffff;
+  --border: #e4e4e1;
+  --text: #1a1a18;
+  --muted: #6b6b66;
+  --accent: #b8502a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161614;
+    --surface: #1f1e1c;
+    --border: #33312e;
+    --text: #efedea;
+    --muted: #9a968f;
+    --accent: #e08a5f;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 0 16px;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.55 ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding-block: 72px 56px; }
+header { margin-bottom: 40px; }
+h1 { margin: 0 0 6px; font-size: 1.75rem; letter-spacing: -0.02em; }
+header p { margin: 0; color: var(--muted); }
+ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  transition: border-color .15s ease, transform .15s ease;
+}
+.card:hover { border-color: var(--accent); transform: translateY(-1px); }
+.card-link { display: block; padding: 20px 20px 4px; text-decoration: none; color: inherit; }
+.card h2 { margin: 0 0 6px; font-size: 1.05rem; letter-spacing: -0.01em; }
+.card:hover h2 { color: var(--accent); }
+.desc { margin: 0; color: var(--muted); font-size: .9rem; }
+.meta {
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  padding: 12px 20px 16px; font-size: .8rem; color: var(--muted);
+}
+.src { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--border); }
+.src:hover { color: var(--accent); border-color: var(--accent); }
+.empty { color: var(--muted); padding: 24px 0; }
+footer { margin-top: 48px; font-size: .78rem; color: var(--muted); }
+footer a { color: inherit; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Francisco Tavares</h1>
+      <p>Pages published at fmiguelt.github.io</p>
+    </header>
+    <ul>
+      <li class="card">
+        <a class="card-link" href="https://fmiguelt.github.io/hyrox-race-analyzer/">
+          <h2>Hyrox Race Calculator &amp; Analyzer</h2>
+          <p class="desc">Single-file HTML app to plan and analyse Hyrox races. Set a target time and get per-km pacing, import splits by pasting official results, break down runs, stations and Rox Zone, and save every race or simulation locally with export/import. Includes reference times by level for 7 categories.</p>
+        </a>
+        <div class="meta">
+          <time datetime="2026-09-17T10:33:49Z">Updated 17 Sep 2026</time>
+          <a class="src" href="https://github.com/fmiguelt/hyrox-race-analyzer">Source</a>
+        </div>
+      </li>
+      <li class="card">
+        <a class="card-link" href="https://fmiguelt.github.io/running-pace-calculator/">
+          <h2>Running Pace Calculator</h2>
+          <p class="desc">Single-file HTML running pace calculator. Converts speed (km/h) to pace (min/km) and back, computes weighted average speed and pace across multi-segment runs, averages per-kilometre splits with 8K/10K presets, and includes a pace/speed reference table. No dependencies — just open it in a browser.</p>
+        </a>
+        <div class="meta">
+          <time datetime="2026-09-17T10:06:10Z">Updated 17 Sep 2026</time>
+          <a class="src" href="https://github.com/fmiguelt/running-pace-calculator">Source</a>
+        </div>
+      </li>
+    </ul>
+    <footer>
+      Rebuilt automatically from
+      <a href="https://github.com/fmiguelt?tab=repositories">my repositories</a>
+      &middot; 17 Sep 2026, 13:20 UTC
+    </footer>
+  </div>
+</body>
+</html>
